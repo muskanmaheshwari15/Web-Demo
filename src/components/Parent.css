@@ -1,0 +1,53 @@
+/* Parent.css */
+
+.faq-container {
+  padding: 20px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 10px;
+  }
+}
+
+/* Responsive image styling */
+.rounded-md {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FAQ details styling */
+.details {
+  margin-top: 20px;
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Default color */
+}
+
+.details summary:hover,
+.details summary:focus {
+  color: #007bff; /* Change to your desired color */
+}
+
+.details details {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Border radius */
+  padding: 10px; /* Padding inside the box */
+  background-color: #f9f9f9; /* Background color */
+}
+
+.details p {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments for FAQ details */
+@media (max-width: 768px) {
+  .details p {
+    font-size: 14px;
+  }
+}
